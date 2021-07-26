@@ -23,9 +23,8 @@ body {
     justify-content: center;
     width: 275px;
     height: 622px;
-    /* background: url(wallpaper.png) no-repeat center center; */
-    /* background-size: cover; */
-    background-color: grey;
+    background: url(wallpaper.png) no-repeat center center;
+    background-size: cover;
     border-radius: 25px;
 }
 
@@ -55,10 +54,51 @@ body {
     background-color: #373737;
 }
 
+.silent {
+    background-color: #000;
+    width: 10px;
+    height: 15px;
+    position: relative;
+    top: 100px;
+    right: 220px;
+    border-radius: 2px;
+}
+
+.volume-up {
+    background-color: #000;
+    width: 10px;
+    height: 40px;
+    position: relative;
+    top: 115px;
+    right: 220px;
+    border-radius: 2px;
+}
+
+.volume-down {
+    background-color: #000;
+    width: 10px;
+    height: 40px;
+    position: relative;
+    top: 130px;
+    right: 220px;
+    border-radius: 2px;
+}
+
+.power {
+    background-color: #000;
+    width: 10px;
+    height: 60px;
+    position: relative;
+    top: 55px;
+    right: -70px;
+    border-radius: 2px;
+}
+
 .clock-box {
     position: absolute;
     bottom: 550px;
     font-family: 'Helvetica';
     font-size: 20px;
+    color: #fff;
 }
 
