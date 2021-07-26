@@ -8,24 +8,57 @@ body {
     background-color: #d9dbd9;
 }
 
-.container {
-    height: 100vh;
+.smartphone {
+    width: 295px;
+    height: 642px;
+    background-color: black;
+    padding: 10px;
+    margin: 100px auto;
+    border-radius: 35px;
+    
+}
+
+.smartphone-screen {
+    display: flex;
+    justify-content: center;
+    width: 275px;
+    height: 622px;
+    /* background: url(wallpaper.png) no-repeat center center; */
+    /* background-size: cover; */
+    background-color: grey;
+    border-radius: 25px;
+}
+
+.smartphone-screen-top {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 25px;
+    width: 150px;
+    background-color: black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.camera {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,80,168,1) 74%);
+    margin-left: 7px;
+}
+
+.box {
+    width: 45px;
+    height: 6px;
+    border-radius: 30px;
+    background-color: #373737;
 }
 
 .clock-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 350px;
-    height: 150px;
-    background-color: #959B97;
-    font-family: monospace;
-    font-size: 60px;
-    border: 5px solid #000;
-    border-radius: 15px;
-    box-shadow: 6px -12px 5px 0px rgba(0,0,0,0.75);
+    position: absolute;
+    bottom: 550px;
+    font-family: 'Helvetica';
+    font-size: 20px;
 }
 
