@@ -23,9 +23,10 @@ body {
     justify-content: center;
     width: 275px;
     height: 622px;
-    background: url(wallpaper.png) no-repeat center center;
-    background-size: cover;
+    /* background: url(wallpaper.png) no-repeat center center;
+    background-size: cover; */
     border-radius: 25px;
+    background-color: grey;
 }
 
 .smartphone-screen-top {
@@ -37,6 +38,13 @@ body {
     background-color: black;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+.fas, 
+.network {
+    font-family: 'Helvetica', sans-serif;
+    color: white;
+    font-size: 10px;
 }
 
 .camera {
@@ -54,43 +62,36 @@ body {
     background-color: #373737;
 }
 
+
+
 .silent {
-    background-color: #000;
+    background-color: green;
     width: 10px;
     height: 15px;
-    position: relative;
-    top: 100px;
-    right: 220px;
     border-radius: 2px;
 }
 
 .volume-up {
-    background-color: #000;
+    background-color: green;
     width: 10px;
     height: 40px;
     position: relative;
-    top: 115px;
-    right: 220px;
+    top: 135px;
+    right: 226px;
     border-radius: 2px;
 }
 
 .volume-down {
-    background-color: #000;
+    background-color: green;
     width: 10px;
     height: 40px;
-    position: relative;
-    top: 130px;
-    right: 220px;
     border-radius: 2px;
 }
 
 .power {
-    background-color: #000;
+    background-color: blue;
     width: 10px;
     height: 60px;
-    position: relative;
-    top: 55px;
-    right: -70px;
     border-radius: 2px;
 }
 
@@ -102,3 +103,12 @@ body {
     color: #fff;
 }
 
+.time {
+    position: absolute;
+    bottom: 520px;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    color: #fff;
+}
+
+/* fixing the notification bar */
