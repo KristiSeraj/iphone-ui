@@ -6,6 +6,7 @@
 
 body {
     background-color: #d9dbd9;
+    font-family: Helvetica, sans-serif;
 }
 
 .smartphone {
@@ -43,7 +44,6 @@ body {
 
 .fas, 
 .network {
-    font-family: 'Helvetica', sans-serif;
     color: white;
     font-size: 10px;
 }
@@ -132,15 +132,24 @@ body {
 .clock-box {
     position: absolute;
     bottom: 550px;
-    font-family: 'Helvetica';
-    font-size: 20px;
+    font-size: 50px;
     color: #fff;
+    font-weight: lighter;
+}
+
+.fa-lock {
+    font-size: 20px;
+}
+
+.lock {
+    position: relative;
+    top: -90px;
+    left: 127px;
 }
 
 .time {
     position: absolute;
     bottom: 520px;
-    font-family: 'Helvetica';
     font-size: 20px;
     color: #fff;
 }
