@@ -1,6 +1,6 @@
-# Iphone UI
+# iPhone UI
 
-IPHONE created using HTML, CSS And JavaScript.
+iPhone created using HTML, CSS And JavaScript.
 
 ## Images
 
