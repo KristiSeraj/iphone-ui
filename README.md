@@ -4,7 +4,7 @@ IPHONE created using HTML, CSS And JavaScript.
 
 ## Images
 
-![](/src/assets/screenshot.png)
+![](/assets/screenshot.png)
 
 ## Contributing
 
