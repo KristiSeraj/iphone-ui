@@ -8,7 +8,7 @@ IPHONE created using HTML, CSS And JavaScript.
 
 ## Contributing
 
-Feel free to contribute to this project.
+Feel free to contribute to this repo.
 
 ## Support
 
