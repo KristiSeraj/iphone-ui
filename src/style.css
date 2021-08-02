@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #d9dbd9;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* the whole smartphone */
+.smartphone {
+    width: 295px;
+    height: 642px;
+    background-color: black;
+    padding: 10px;
+    margin: 150px auto;
+    border-radius: 35px;
+    
+}
+
+
+.smartphone-screen {
+    position: relative;
+    width: 275px;
+    height: 622px;
+    background: url(/src/assets/wallpaper.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+/* smartphone screen which has camera and mic  */
+.smartphone-screen-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 150px;
+    background-color: black;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.fas, 
+.network {
+    color: white;
+    font-size: 10px;
+}
+
+.camera {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,80,168,1) 74%);
+    margin-left: 7px;
+}
+
+/* mic */
+.box {
+    width: 45px;
+    height: 6px;
+    border-radius: 30px;
+    background-color: #373737;
+}
+
+/* notification bar (network, signal, battery and wifi) */
+.notification {
+    position: relative;
+    top: -16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: baseline;
+    align-content: flex-start;
+}
+
+.network { 
+    flex-grow: 1;
+    margin-left: 25px;
+}
+
+.battery {
+    padding-right: 8px;
+}
+
+.wifi {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/* silent button */
+.silent {
+    background-color: #000;
+    width: 10px;
+    height: 15px;
+    position: relative;
+    left: -12px;
+    top: 50px;
+    border-radius: 2px;
+}
+
+/* volume up button */
+.volume-up {
+    background-color: #000;
+    width: 10px;
+    height: 40px;
+    position: relative;
+    left: -12px;
+    top: 70px;
+    border-radius: 2px;
+}
+
+/* volume down button */
+.volume-down {
+    background-color: #000;
+    width: 10px;
+    height: 40px;
+    position: relative;
+    left: -12px;
+    top: 85px;
+    border-radius: 2px;
+}
+
+/* power button */
+.power {
+    background-color: #000;
+    width: 10px;
+    height: 60px;
+    float: right;
+    position: relative;
+    left: 12px;
+    border-radius: 2px;
+}
+
+/* clock */
+.clock-box {
+    position: relative;
+    top: -95px;
+    width: 135px;
+    height: auto;
+    margin: 0 auto;
+    font-size: 55px;
+    color: #fff;
+    font-weight: 300;
+    padding: 0 10px;
+}
+
+.fa-lock {
+    font-size: 20px;
+}
+
+/* lock icon  */
+.lock {
+    position: relative;
+    top: -97px;
+    left: 127px;
+}
+
+/* month weekday date */
+.time {
+    position: relative;
+    top: -100px;
+    width: 175px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 200;
+    padding: 0 10px;
+}
+
+/* div of camera and flashlight */
+.smartphone-screen-bottom {
+    position: relative;
+    bottom: -265px;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+}
+
+/* flashlight icon */
+.material-icons-outlined {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    font-family: 'Material Icons';
+    color: white;
+    font-size: 15px;
+    font-style: normal;
+    background-color: #202020;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.camera-button {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    background-color: #202020;
+    border-radius: 50%;
+    padding: 7px 10px;
+}
+
+/* camera icon */
+.fa-camera {
+    font-size: 15px;
+}
+
+/* faceid div */
+.faceid {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    right: 25%;
+    width: 100px;
+    height: 3px;
+    border-radius: 30px;
+    margin: 5px auto;
+    background-color: #fff;
+}
