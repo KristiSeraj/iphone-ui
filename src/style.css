@@ -165,12 +165,13 @@ body {
 .time {
     position: relative;
     top: -100px;
-    width: 175px;
+    width: 250px;
     margin: 0 auto;
     font-size: 20px;
     color: #fff;
     font-weight: 200;
     padding: 0 10px;
+    text-align: center;
 }
 
 /* div of camera and flashlight */
