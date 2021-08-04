@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 body {
@@ -20,7 +21,6 @@ body {
     
 }
 
-
 .smartphone-screen {
     position: relative;
     width: 275px;
@@ -32,9 +32,15 @@ body {
 
 /* smartphone screen which has camera and mic  */
 .smartphone-screen-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     height: 25px;
     width: 150px;
     background-color: black;
@@ -55,6 +61,8 @@ body {
     width: 10px;
     height: 10px;
     border-radius: 50%;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(0,0,0,1)), color-stop(74%, rgba(0,80,168,1)));
+    background: -o-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,80,168,1) 74%);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,80,168,1) 74%);
     margin-left: 7px;
 }
@@ -71,16 +79,29 @@ body {
 .notification {
     position: relative;
     top: -16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: baseline;
-    align-content: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
 }
 
 .network { 
-    flex-grow: 1;
+    -webkit-box-flex: 1; 
+        -ms-flex-positive: 1; 
+            flex-grow: 1;
     margin-left: 25px;
 }
 
