@@ -162,13 +162,14 @@ body {
 .clock-box {
     position: relative;
     top: -95px;
-    width: 135px;
+    width: 250px;
     height: auto;
     margin: 0 auto;
     font-size: 55px;
     color: #fff;
     font-weight: 300;
     padding: 0 10px;
+    text-align: center;
 }
 
 .fa-lock {
